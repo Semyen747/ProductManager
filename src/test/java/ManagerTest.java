@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class ManagerTests {
+public class ManagerTest {
     Repository mock = new Repository();
     Manager manage = new Manager(mock);
 
